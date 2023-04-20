@@ -1,0 +1,59 @@
+.cart-view {
+    padding-top: 100px;
+}
+.crumb {
+    margin-bottom: 50px;
+}
+.crumb a {
+    color: var(--secondary-color);
+}
+.cart-view .breadcrumb-item.active a {
+    color: var(--primary-color);
+}
+.left {
+    width: 30%;
+}
+.left .title {
+    color: var(--secondary-color);
+}
+.left .cart-img img {
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.right {
+    width: 50%;
+    margin-left: 30px;
+}
+.right .title {
+    color: var(--primary-color);
+}
+.right .row {
+    color: var(--secondary-color);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.498);
+}
+.right .row:last-child {
+    border: none;
+    color: var(--primary-color);
+}
+.right .row p {
+    margin-top: 10px;
+}
+.right .btn {
+    text-align: left;
+}
+.right .btn button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.5;
+}
+.right .btn button:hover {
+    filter: grayscale(0.2);
+}
+.right .btn button a {
+    color: var(--secondary-color);
+}

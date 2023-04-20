@@ -1,0 +1,69 @@
+.navbar {
+    position: relative;
+}
+.form {
+    padding-top: 50px;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+.form .form-signin h2 {
+    color: var(--primary-color);
+}
+.form .form-signin .continue {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form .form-signin .continue button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+
+    transition: 0.5s;
+}
+.form .form-signin .continue button:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+}
+.form .form-signin .info {
+    margin-top: 20px;
+}
+.form .form-signin .info input {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+}
+.form .form-signin .radio {
+    margin-top: 20px;
+}
+.form .form-signin .radio a {
+    color: red;
+    text-decoration: underline;
+}
+.form .form-signin .radio a:hover {
+    color: var(--primary-color);
+}
+.form .form-signin .btn button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.5;
+}
+.form .form-signin .btn button:hover {
+    filter: grayscale(0.2);
+}
+.form .form-signin .error h4 {
+    color: var(--primary-color);
+    margin-top: 20px;
+}

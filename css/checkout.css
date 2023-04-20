@@ -1,0 +1,12 @@
+.checkout {
+    padding-top: 100px;
+}
+.crumb {
+    margin-bottom: 50px;
+}
+.crumb a {
+    color: var(--secondary-color);
+}
+.checkout .breadcrumb-item.active a {
+    color: var(--primary-color);
+}
