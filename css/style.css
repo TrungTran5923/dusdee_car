@@ -192,6 +192,7 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
 .footer {
     margin-top: 100px;
     padding-top: 20px;
@@ -234,11 +235,14 @@ ul {
     outline: none;
 }
 .footer .bot {
+    display: flex;
+    justify-content: space-between;
     margin-top: 10px;
     padding: 10px;
     padding-top: 20px;
     border-top: 1px solid rgba(27, 27, 27, 0.526);
 }
+
 .footer .bot .right i {
     font-size: 30px;
     margin-left: 10px;

@@ -1,0 +1,409 @@
+.product-detail {
+    padding-top: 100px;
+}
+.product-detail .crumb li a {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+.product-detail .crumb li.active a {
+    color: var(--primary-color);
+}
+.product-detail .left {
+    width: 40%;
+}
+.product-img.active {
+    display: block;
+}
+.product-img {
+    display: none;
+}
+.product-img .main-img {
+    margin-bottom: 20px;
+}
+.product-img .main-img img {
+    border-radius: 8px;
+}
+
+.product-img .sub-img:hover img {
+    filter: blur(0px);
+    box-shadow: var(--primary-color) 0px 8px 24px;
+}
+
+.product-img .sub-img img {
+    border-radius: 8px;
+    filter: blur(1px);
+    transition: 0.5s;
+}
+.descrip {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: var(--secondary-color);
+}
+.descrip .title {
+    color: var(--primary-color);
+}
+.descrip .content {
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+.descrip .content ul {
+    list-style: circle;
+    display: flex;
+    flex-wrap: wrap;
+}
+.descrip .content ul li {
+    width: 50%;
+    font-size: 26px;
+    font-weight: 600;
+}
+.right {
+    width: 60%;
+    padding-left: 40px;
+}
+.right .title {
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+.right .subtitle {
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.right .subtitle ul li {
+    margin-right: 14px;
+}
+.right .subtitle ul li:first-child {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.right .subtitle .price {
+    color: var(--primary-color);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    position: relative;
+}
+.right .subtitle .price::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    top: -7px;
+    left: 0px;
+    background-color: var(--primary-color);
+}
+.right .subtitle .price h4 {
+    font-size: 38px;
+}
+.right .subtitle .price h6 {
+    font-size: 20px;
+    text-decoration: line-through;
+    color: grey;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.right .btn {
+    margin-top: 20px;
+}
+.right .btn button {
+    padding: 10px 80px;
+    font-size: 18px;
+    background-color: red;
+    color: var(--secondary-color);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+.right .btn button:hover {
+    background-color: var(--primary-color);
+}
+.right .btn button:nth-child(2) {
+    border: 1px solid var(--primary-color);
+    background-color: rgba(255, 166, 0, 0.405);
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.right .special {
+    margin-top: 30px;
+}
+
+.right .special .title {
+    color: var(--secondary-color);
+}
+.right .special .title h4 {
+    width: 30%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--primary-color);
+}
+.right .special .text ul {
+    list-style: circle;
+    color: var(--secondary-color);
+    margin-left: 20px;
+}
+.right .special .text ul li {
+    font-size: 18px;
+}
+.right .special .text span {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+iframe {
+    width: 100%;
+}
+.color div.active {
+    border: 2px solid var(--secondary-color);
+}
+.color .green {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+}
+.color .black {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(29, 29, 29);
+}
+.color .orange {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.relate {
+    margin-left: 280px;
+}
+.relate .product-card .card-img {
+    position: relative;
+    overflow: hidden;
+}
+.relate .title {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.relate .product-card {
+    text-align: center;
+}
+.relate .product-card .card-title {
+    color: black;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+.relate .product-card .card-subtitle {
+    justify-content: space-between;
+    font-size: 14px;
+}
+.relate .product-card .card-subtitle ul li {
+    margin-right: 14px;
+    color: black;
+}
+.relate .product-card .card-subtitle ul li:first-child {
+    background-color: var(--primary-color);
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.relate .product-card .card-subtitle .price {
+    color: var(--primary-color);
+    margin-top: 10px;
+    position: relative;
+}
+.relate .product-card .card-subtitle .price::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    top: -7px;
+    left: 94px;
+    background-color: var(--primary-color);
+}
+.relate .product-card .card .tag {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 5px 10px;
+}
+.relate .product-card .card-img img {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    background-color: rgba(147, 147, 147, 0.393);
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.popup.active {
+    visibility: visible;
+    opacity: 1;
+}
+.popup-content {
+    position: absolute;
+    overflow: hidden;
+    background-color: var(--primary-color);
+    width: 70%;
+    top: 100px;
+    left: 240px;
+    text-align: center;
+    padding: 20px;
+    color: var(--secondary-color);
+    z-index: 7;
+}
+
+.popup i {
+    font-size: 20px;
+}
+.popup h4 {
+    color: rgb(44, 44, 44);
+    font-weight: 400;
+}
+.popup .text {
+    z-index: 2;
+}
+.popup img {
+    position: absolute;
+    width: 60%;
+    top: -30px;
+    right: -120px;
+    opacity: 0.5;
+    z-index: 1;
+}
+.form {
+    padding-top: 50px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: black;
+}
+.form .form-login h2 {
+    color: var(--primary-color);
+}
+.form .form-login .continue {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.form .form-login .continue button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+
+    transition: 0.5s;
+}
+.form .form-login .continue button:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.form .form-login .info input {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+}
+.form .form-login .radio {
+    margin-top: 20px;
+}
+.form .form-login .radio a {
+    color: rgba(0, 0, 0, 0.687);
+    text-decoration: underline;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.form .form-login .radio a:hover {
+    color: var(--primary-color);
+}
+.form .form-login .btn button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.5;
+}
+.form .form-login .btn button:hover {
+    filter: grayscale(0.2);
+}
+.form .form-login .regist {
+    padding-bottom: 20px;
+}
+.form .form-login .regist a {
+    color: rgba(0, 0, 0, 0.687);
+    text-decoration: underline;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.form .form-login .regist a:hover {
+    color: var(--primary-color);
+}
+
+.navbar .icon .cart {
+    position: relative;
+}
+.navbar .icon .cart .cart_box2.active {
+    display: block;
+    display: flex;
+    align-items: center;
+}
+.navbar .icon .cart .cart_box2 {
+    display: none;
+}
+
+.navbar .icon .cart .cart_box2 {
+    position: absolute;
+    width: 300px;
+    top: 30px;
+    left: -290px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 0px 10px 10px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+}
+.navbar .icon .cart:hover .cart_box2 {
+    opacity: 1;
+    visibility: visible;
+}
+.navbar .icon .cart .cart_box2 .img {
+    width: 30%;
+    margin: 0;
+}
+.navbar .icon .cart .cart_box2 .text {
+    margin-left: 20px;
+}
+.navbar .icon .cart .cart_box2 .name {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.navbar .icon .cart .cart_box2 .amount {
+    color: black;
+}
