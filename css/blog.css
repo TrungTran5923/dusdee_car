@@ -1,0 +1,158 @@
+.head-banner {
+    position: relative;
+}
+.head-banner .banner {
+    width: 100%;
+    position: relative;
+}
+.head-banner .banner::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgb(27 27 27 / 0%) 20%, var(--primary-color) 100%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+.head-banner .banner img {
+    height: 300px;
+    object-fit: cover;
+}
+.head-banner h2 {
+    position: absolute;
+    color: var(--secondary-color);
+    top: 50%;
+}
+.blog {
+    margin-top: 60px;
+}
+.blog .title {
+    text-align: center;
+}
+.blog .title p {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+.blog .title h2 {
+    color: var(--secondary-color);
+}
+.blog .title .line1 {
+    width: 150px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+}
+.blog .title .line2 {
+    width: 100px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.blog .card {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+.blog .card .left {
+    border-left: 2px dashed var(--primary-color);
+}
+.blog .card:nth-child(odd) .left {
+    border-left: none;
+    border-right: 2px dashed var(--primary-color);
+}
+
+.blog .card .left img {
+    border-radius: 5px;
+}
+.blog .card .right {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.blog .card .right .detail {
+    color: var(--primary-color);
+}
+.blog .card .right .content-title {
+    color: var(--secondary-color);
+}
+.blog .card .right .content-subtitle {
+    color: rgba(92, 92, 92, 0.933);
+}
+.blog .card .right .link {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: var(--primary-color);
+    transition: 0.5s;
+}
+.blog .card .right .link:hover {
+    color: var(--primary-color);
+    background-color: white;
+    border: 1px solid var(--primary-color);
+}
+.review .video {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+.review .video .left {
+    border-left: 2px dashed var(--primary-color);
+}
+
+.review .video .left img {
+    border-radius: 5px;
+}
+.review .video .right {
+    border-right: 2px dashed var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+.review .video .right .detail {
+    color: var(--primary-color);
+}
+.review .video .right .content-title {
+    color: var(--secondary-color);
+}
+.review .video.right .content-subtitle {
+    color: rgba(92, 92, 92, 0.933);
+}
+.review .video .right .link {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: var(--primary-color);
+    transition: 0.5s;
+}
+.review .video .right .link:hover {
+    color: var(--primary-color);
+    background-color: white;
+    border: 1px solid var(--primary-color);
+}
+.review {
+    margin-top: 60px;
+}
+.review .title {
+    text-align: center;
+}
+.review .title p {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+.review .title h2 {
+    color: var(--secondary-color);
+}
+.review .title .line1 {
+    width: 150px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+}
+.review .title .line2 {
+    width: 100px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    margin-top: 5px;
+}

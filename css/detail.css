@@ -312,3 +312,10 @@
     opacity: 0.5;
     z-index: 1;
 }
+.popup .btn button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}

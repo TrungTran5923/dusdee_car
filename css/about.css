@@ -1,0 +1,122 @@
+.head-banner {
+    position: relative;
+}
+.head-banner .banner {
+    width: 100%;
+    position: relative;
+}
+.head-banner .banner::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgb(27 27 27 / 0%) 20%, var(--primary-color) 100%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+.head-banner .banner img {
+    height: 300px;
+    object-fit: cover;
+}
+.head-banner h2 {
+    position: absolute;
+    color: var(--secondary-color);
+    top: 50%;
+}
+.content {
+    margin-top: 30px;
+}
+.goal {
+    text-align: center;
+}
+.title {
+    color: var(--primary-color);
+}
+.subtitle h6 {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+.team {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.team .title {
+    margin-bottom: 30px;
+}
+.text {
+    color: var(--secondary-color);
+    margin-top: 10px;
+}
+.card-img img {
+    width: 300px;
+    height: 240px;
+    object-fit: cover;
+}
+.testimonial {
+    margin-bottom: 300px;
+}
+.testimonial .title {
+    text-align: center;
+    color: var(--primary-color);
+}
+.testimonial .title h2 {
+    color: var(--primary-color);
+}
+.testimonial .title p {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.testimonial .title .line1 {
+    width: 150px;
+    height: 2px;
+    background-color: var(--secondary-color);
+    margin: 0 auto;
+}
+.testimonial .title .line2 {
+    width: 100px;
+    height: 2px;
+    background-color: var(--secondary-color);
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.testimonial .card {
+    position: relative;
+}
+.testimonial .card-body {
+    text-align: center;
+    color: black;
+}
+.testimonial .card-body h5 {
+    color: var(--primary-color);
+}
+.testimonial .card-body .card-subtitle p {
+    font-weight: 300;
+}
+.testimonial .card-body .icon i {
+    font-size: 40px;
+    color: var(--primary-color);
+}
+.testimonial .card-img-top {
+    object-fit: cover;
+    height: 240px;
+}
+.testimonial .card-body .ava {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+.testimonial .card-body .ava img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}

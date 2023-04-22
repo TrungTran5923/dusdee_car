@@ -29,3 +29,6 @@ registerform.addEventListener("submit", (e) => {
     $(".popup").addClass("active");
     $("html, body").animate({ scrollTop: 0 }, 1000);
 });
+$(".popup-content .btn button").click(function () {
+    $(".popup").removeClass("active");
+});
